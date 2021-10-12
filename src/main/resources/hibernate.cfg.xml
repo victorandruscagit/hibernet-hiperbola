@@ -19,6 +19,7 @@
 
 
         <mapping class="ru.javabegin.hibernate.entity.User"/>
+        <mapping class="ru.javabegin.hibernate.entity.Category"/>
 
         <!-- DB schema will be updated if needed -->
         <!-- <property name="hibernate.hbm2ddl.auto">update</property> -->

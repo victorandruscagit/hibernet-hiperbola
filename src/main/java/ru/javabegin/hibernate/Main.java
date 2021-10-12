@@ -11,9 +11,9 @@ public class Main {
         log.info("Hibranta SQL started");
         Session session = HibernateUtil.getSessionFactory().openSession();
         //User user = session.get(User.class, 10025L);
-        User user = session.get(User.class, 20040000L);
-       /* log.info("is " + user.getUsername());
-*/
+        User user = session.get(User.class, 20040L);
+        log.info("is " + user.getUsername());
+
         session.close();
         HibernateUtil.close();
 
